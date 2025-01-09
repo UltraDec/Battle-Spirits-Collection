@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UltraDec's Ultraman BSP Collection</title>
+    <style>
+        body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        }
+
+        h1 {
+        text-align: center;
+        }
+
+        #card-container {
+        display: flex;
+        flex-wrap: wrap; /* Allow wrapping to the next row */
+        gap: 15px; /* Spacing between cards */
+        justify-content: center; /* Center cards */
+        }
+
+        .card {
+        width: calc(25% - 25px); /* 3 cards per row with spacing */
+        box-sizing: border-box;
+        text-align: center;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        overflow: hidden;
+        background: #f9f9f9;
+        padding: 10px;
+        }
+
+        .card img {
+        width: 100%; /* Ensure images fit within the card */
+        height: auto;
+        display: block;
+        border-radius: 4px;
+        }
+
+        .unowned img {
+        filter: grayscale(100%); /* Black-and-white effect */
+        }
+
+        .card p {
+        margin: 10px 0 0;
+        font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>UltraDec's Ultraman BSP Collection</h1>
+    <div id="card-container"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script> 
+    <script>
+        fetch('CB32.csv')
+            .then(response => response.text())
+            .then(csvText => {
+                // Parse CSV with PapaParse
+                const cards = Papa.parse(csvText, { header: true }).data;
+
+                // Populate cards on the page
+                const container = document.getElementById('card-container');
+                cards.forEach(card => {
+                const cardElement = document.createElement('div');
+                cardElement.classList.add('card', card.Owned === 'TRUE' ? 'owned' : 'unowned');
+                cardElement.innerHTML = `
+                    <img src="${card.Link}" alt="${card.Name}">
+                    <p>${card.Name}</p>
+                `;
+                container.appendChild(cardElement);
+                });
+            })
+            .catch(error => console.error('Error loading CSV:', error));
+    </script>
+</body>
+</html>
