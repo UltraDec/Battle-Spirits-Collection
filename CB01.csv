@@ -1,76 +1,76 @@
-Set ID,Card ID,Card Name,Rarity,Owned
-CB01,CB01-001,The FriendlyGiantBird Lidorias,Common,TRUE
-CB01,CB01-002,The SpaceDinosaur Hyper Zetton (Cocoon),Common,TRUE
-CB01,CB01-003,The KingDemonBeast of Wind Maga-Basser,Common,TRUE
-CB01,CB01-004,The SpaceKaiju Bemular,Common,TRUE
-CB01,CB01-005,The AncientKaiju Gomora,Master Rare,TRUE
-CB01,CB01-006,The KingDemonBeast of Fire Magapandon,Common,TRUE
-CB01,CB01-007,The SpaceDinosaur Hyper-Zetton (Gigant),Rare,TRUE
-CB01,CB01-008,The PerfectLifeForm IF (Fourth Form),Rare,TRUE
-CB01,CB01-009,The KingDemonBeast of Earth Maga-Grand-King,Rare,TRUE
-CB01,CB01-010,The OrganicSaucer Nova,Common,TRUE
-CB01,CB01-011,The SkullKaiju Red King (The Second),Rare,TRUE
-CB01,CB01-012,The GreatKingDemonBeast Maga-Orochi,Rare,TRUE
-CB01,CB01-013,The KingDemonBeast of Light Maga-Zetton,Master Rare,TRUE
-CB01,CB01-014,The PhantomDemon Jugglus Juggler (Majin Form),Master Rare,TRUE
-CB01,CB01-015,The CombinationKingDemonBeast Zeppandon,Rare,FALSE
-CB01,CB01-016,The CloneAlien Guts Seijin Doppel,Common,TRUE
-CB01,CB01-017,The KidnappingPhantom Kemur Man,Common,TRUE
-CB01,CB01-018,The VillainousAlien Temperor Seijin Batista,Common,TRUE
-CB01,CB01-019,The HellAlien Hipporito Seijin Callisto,Common,TRUE
-CB01,CB01-020,The AntennaAlien Bat Seijin,Common,TRUE
-CB01,CB01-021,Dark Lugiel,Rare,TRUE
-CB01,CB01-022,The InfernalWarrior Kyrieloid II,Rare,FALSE
-CB01,CB01-023,The DarkSpaceGreatEmperor Empera Seijin,Rare,TRUE
-CB01,CB01-024,The HundredBodyKaiju Belyudra,Rare,TRUE
-CB01,CB01-025,The Devil Beast Zaigorg,Rare,TRUE
-CB01,CB01-026,Baltan Seijin,Common,TRUE
-CB01,CB01-027,The OddMachineCustomDragon Galactron,Common,FALSE
-CB01,CB01-028,The OddMachineAlien Gapiya Seijin Sades,Rare,FALSE
-CB01,CB01-029,The OddMachineKaiju Diabolic,Master Rare,TRUE
-CB01,CB01-030,The Love and Hate Warrior Camearra,Common,FALSE
-CB01,CB01-031,The Evil God of Destruction Dark Zagi,Master Rare,TRUE
-CB01,CB01-032,The SuperAncientGhostWingedBeast Shibito Zoiger,Common,FALSE
-CB01,CB01-033,Ultraman Victory,Common,TRUE
-CB01,CB01-034,Ultraman Jack,Rare,TRUE
-CB01,CB01-035,The MoonlightKaiju Revived Eleking,Common,TRUE
-CB01,CB01-036,Ultraman Ginga,Rare,FALSE
-CB01,CB01-037,The MissileSuperBeast Verokron,Common,FALSE
-CB01,CB01-038,Zoffy,Rare,TRUE
-CB01,CB01-039,Ultraman X,Rare,TRUE
-CB01,CB01-040,Ultraman Orb Emerium Slugger,Rare,TRUE
-CB01,CB01-041,Ultraman Orb Spacium Zeperion,Common,TRUE
-CB01,CB01-042,Ultraseven,Rare,FALSE
-CB01,CB01-043,Ultraman Orb Lightning Attacker,Common,FALSE
-CB01,CB01-044,Ultraman Mebius,Rare,TRUE
-CB01,CB01-045,Ultraman Zero,Master Rare,TRUE
-CB01,CB01-046,The DarknessDemonSuperBeast Demonthor,Rare,TRUE
-CB01,CB01-047,Ultraman Orb Orb Origin,Master Rare,TRUE
-CB01,CB01-048,The KingDemonBeast of Water Magajappa,Common,TRUE
-CB01,CB01-049,Ultraman Orb Thunder Breaster,Rare,TRUE
-CB01,CB01-050,The GalaxyEmperor Kaiser Belial,Master Rare,TRUE
-CB01,CB01-051,The Evil Gathering on the Tower,Rare,FALSE
-CB01,CB01-052,Future Earth,Common,FALSE
-CB01,CB01-053,The Jewel-turned City,Common,FALSE
-CB01,CB01-054,The Baltan Seijin Spaceship,Common,TRUE
-CB01,CB01-055,I'm Borrowing the Power of Bonds!,Common,FALSE
-CB01,CB01-056,The Land of Light,Rare,TRUE
-CB01,CB01-056,The Land of Light (New Art),Rare,TRUE
-CB01,CB01-057,Collapser Aura,Common,TRUE
-CB01,CB01-058,Magata-Thunderbolt,Common,TRUE
-CB01,CB01-059,Deathcium Ray,Common,TRUE
-CB01,CB01-060,Heat Blaster,Common,FALSE
-CB01,CB01-061,Zeperion Ray,Common,TRUE
-CB01,CB01-062,Trinitium Light Ring,Rare,TRUE
-CB01,CB01-X01,The UltimateKingDemonBeast Magata no Orochi ,X-Rare,FALSE
-CB01,CB01-X01,The UltimateKingDemonBeast Magata no Orochi (Alternate Art),X-Rare,FALSE
-CB01,CB01-X02,The Evil God of Destruction Hyper Zetton (Imago),X-Rare,FALSE
-CB01,CB01-X02,The Evil God of Destruction Hyper Zetton (Imago) (Alternate Art),X-Rare,FALSE
-CB01,CB01-X03,The SuperScientificSeijin Dark Baltan,X-Rare,TRUE
-CB01,CB01-X03,The SuperScientificSeijin Dark Baltan (Alternate Art),X-Rare,FALSE
-CB01,CB01-X04,The First Ultraman,X-Rare,TRUE
-CB01,CB01-X04,The First Ultraman (Alternate Art),X-Rare,FALSE
-CB01,CB01-X05,Ultraman Tiga,X-Rare,TRUE
-CB01,CB01-X05,Ultraman Tiga (Alternate Art),X-Rare,FALSE
-CB01,CB01-X06,Ultraman Orb Orb Trinity,X-Rare,TRUE
-CB01,CB01-X06,Ultraman Orb Orb Trinity (Alternate Art),X-Rare,FALSE
+Set,ID,Number,Name,Rarity,Owned,Link,,,,
+CB01,CB01-001,001,The FriendlyGiantBird Lidorias,Common,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10001.jpg,,,,
+CB01,CB01-002,002,The SpaceDinosaur Hyper Zetton (Cocoon),Common,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10002.jpg,,,,
+CB01,CB01-003,003,The KingDemonBeast of Wind Maga-Basser,Common,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10003.jpg,,,,
+CB01,CB01-004,004,The SpaceKaiju Bemular,Common,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10004.jpg,,,,
+CB01,CB01-005,005,The AncientKaiju Gomora,Master Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10005.jpg,,,,
+CB01,CB01-006,006,The KingDemonBeast of Fire Magapandon,Common,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10006.jpg,,,,
+CB01,CB01-007,007,The SpaceDinosaur Hyper-Zetton (Gigant),Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10007.jpg,,,,
+CB01,CB01-008,008,The PerfectLifeForm IF (Fourth Form),Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10008.jpg,,,,
+CB01,CB01-009,009,The KingDemonBeast of Earth Maga-Grand-King,Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10009.jpg,,,,
+CB01,CB01-010,010,The OrganicSaucer Nova,Common,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10010.jpg,,,,
+CB01,CB01-011,011,The SkullKaiju Red King (The Second),Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10011.jpg,,,,
+CB01,CB01-012,012,The GreatKingDemonBeast Maga-Orochi,Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10012.jpg,,,,
+CB01,CB01-013,013,The KingDemonBeast of Light Maga-Zetton,Master Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10013.jpg,,,,
+CB01,CB01-014,014,The PhantomDemon Jugglus Juggler (Majin Form),Master Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10014.jpg,,,,
+CB01,CB01-015,015,The CombinationKingDemonBeast Zeppandon,Rare,FALSE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10015.jpg,,,,
+CB01,CB01-016,016,The CloneAlien Guts Seijin Doppel,Common,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10016.jpg,,,,
+CB01,CB01-017,017,The KidnappingPhantom Kemur Man,Common,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10017.jpg,,,,
+CB01,CB01-018,018,The VillainousAlien Temperor Seijin Batista,Common,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10018.jpg,,,,
+CB01,CB01-019,019,The HellAlien Hipporito Seijin Callisto,Common,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10019.jpg,,,,
+CB01,CB01-020,020,The AntennaAlien Bat Seijin,Common,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10020.jpg,,,,
+CB01,CB01-021,021,Dark Lugiel,Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10021.jpg,,,,
+CB01,CB01-022,022,The InfernalWarrior Kyrieloid II,Rare,FALSE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10022.jpg,,,,
+CB01,CB01-023,023,The DarkSpaceGreatEmperor Empera Seijin,Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10023.jpg,,,,
+CB01,CB01-024,024,The HundredBodyKaiju Belyudra,Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10024.jpg,,,,
+CB01,CB01-025,025,The Devil Beast Zaigorg,Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10025.jpg,,,,
+CB01,CB01-026,026,Baltan Seijin,Common,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10026.jpg,,,,
+CB01,CB01-027,027,The OddMachineCustomDragon Galactron,Common,FALSE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10027.jpg,,,,
+CB01,CB01-028,028,The OddMachineAlien Gapiya Seijin Sades,Rare,FALSE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10028.jpg,,,,
+CB01,CB01-029,029,The OddMachineKaiju Diabolic,Master Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10029.jpg,,,,
+CB01,CB01-030,030,The Love and Hate Warrior Camearra,Common,FALSE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10030.jpg,,,,
+CB01,CB01-031,031,The Evil God of Destruction Dark Zagi,Master Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10031.jpg,,,,
+CB01,CB01-032,032,The SuperAncientGhostWingedBeast Shibito Zoiger,Common,FALSE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10032.jpg,,,,
+CB01,CB01-033,033,Ultraman Victory,Common,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10033.jpg,,,,
+CB01,CB01-034,034,Ultraman Jack,Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10034.jpg,,,,
+CB01,CB01-035,035,The MoonlightKaiju Revived Eleking,Common,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10035.jpg,,,,
+CB01,CB01-036,036,Ultraman Ginga,Rare,FALSE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10036.jpg,,,,
+CB01,CB01-037,037,The MissileSuperBeast Verokron,Common,FALSE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10037.jpg,,,,
+CB01,CB01-038,038,Zoffy,Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10038.jpg,,,,
+CB01,CB01-039,039,Ultraman X,Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10039.jpg,,,,
+CB01,CB01-040,040,Ultraman Orb Emerium Slugger,Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10040.jpg,,,,
+CB01,CB01-041,041,Ultraman Orb Spacium Zeperion,Common,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10041.jpg,,,,
+CB01,CB01-042,042,Ultraseven,Rare,FALSE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10042.jpg,,,,
+CB01,CB01-043,043,Ultraman Orb Lightning Attacker,Common,FALSE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10043.jpg,,,,
+CB01,CB01-044,044,Ultraman Mebius,Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10044.jpg,,,,
+CB01,CB01-045,045,Ultraman Zero,Master Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10045.jpg,,,,
+CB01,CB01-046,046,The DarknessDemonSuperBeast Demonthor,Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10046.jpg,,,,
+CB01,CB01-047,047,Ultraman Orb Orb Origin,Master Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10047.jpg,,,,
+CB01,CB01-048,048,The KingDemonBeast of Water Magajappa,Common,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10048.jpg,,,,
+CB01,CB01-049,049,Ultraman Orb Thunder Breaster,Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10049.jpg,,,,
+CB01,CB01-050,050,The GalaxyEmperor Kaiser Belial,Master Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10050.jpg,,,,
+CB01,CB01-051,051,The Evil Gathering on the Tower,Rare,FALSE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10051.jpg,,,,
+CB01,CB01-052,052,Future Earth,Common,FALSE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10052.jpg,,,,
+CB01,CB01-053,053,The Jewel-turned City,Common,FALSE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10053.jpg,,,,
+CB01,CB01-054,054,The Baltan Seijin Spaceship,Common,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10054.jpg,,,,
+CB01,CB01-055,055,I'm Borrowing the Power of Bonds!,Common,FALSE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10055.jpg,,,,
+CB01,CB01-056,056,The Land of Light,Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10056.jpg,,,,
+CB01,CB01-056,003,The Land of Light (New Art),Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10003.jpg,,,,MOVE LATER TO PB32
+CB01,CB01-057,057,Collapser Aura,Common,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10057.jpg,,,,
+CB01,CB01-058,058,Magata-Thunderbolt,Common,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10058.jpg,,,,
+CB01,CB01-059,059,Deathcium Ray,Common,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10059.jpg,,,,
+CB01,CB01-060,060,Heat Blaster,Common,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10060.jpg,,,,
+CB01,CB01-061,061,Zeperion Ray,Common,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10061.jpg,,,,
+CB01,CB01-062,062,Trinitium Light Ring,Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10062.jpg,,,,
+CB01,CB01-X01,063,The UltimateKingDemonBeast Magata no Orochi ,X-Rare,FALSE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10063.jpg,,,,
+CB01,CB01-X01,069,The UltimateKingDemonBeast Magata no Orochi (Alternate Art),X-Rare,FALSE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10069.jpg,,,,
+CB01,CB01-X02,064,The Evil God of Destruction Hyper Zetton (Imago),X-Rare,FALSE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10064.jpg,,,,
+CB01,CB01-X02,070,The Evil God of Destruction Hyper Zetton (Imago) (Alternate Art),X-Rare,FALSE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10070.jpg,,,,
+CB01,CB01-X03,065,The SuperScientificSeijin Dark Baltan,X-Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10065.jpg,,,,
+CB01,CB01-X03,071,The SuperScientificSeijin Dark Baltan (Alternate Art),X-Rare,FALSE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10071.jpg,,,,
+CB01,CB01-X04,066,The First Ultraman,X-Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10066.jpg,,,,
+CB01,CB01-X04,072,The First Ultraman (Alternate Art),X-Rare,FALSE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10072.jpg,,,,
+CB01,CB01-X05,067,Ultraman Tiga,X-Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10067.jpg,,,,
+CB01,CB01-X05,073,Ultraman Tiga (Alternate Art),X-Rare,FALSE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10073.jpg,,,,
+CB01,CB01-X06,068,Ultraman Orb Orb Trinity,X-Rare,TRUE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10068.jpg,,,,
+CB01,CB01-X06,074,Ultraman Orb Orb Trinity (Alternate Art),X-Rare,FALSE,https://img.yuyu-tei.jp/card_image/bs/front/cb01/10074.jpg,,,,

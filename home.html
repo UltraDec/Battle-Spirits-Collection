@@ -8,10 +8,15 @@
         body {
         font-family: Arial, sans-serif;
         margin: 20px;
-        }
+        } 
 
         h1 {
         text-align: center;
+        }
+
+        h3 {
+        text-align: center;
+        color: red;
         }
 
         #card-container {
@@ -30,6 +35,9 @@
         overflow: hidden;
         background: #f9f9f9;
         padding: 10px;
+        flex-direction: column; /* Stack the text and image vertically */
+        align-items: center; /* Center items horizontally */
+        justify-content: flex-start; /* Align items at the top */
         }
 
         .card img {
@@ -39,8 +47,16 @@
         border-radius: 4px;
         }
 
+        .card:hover {
+        background: rgba(136, 142, 143, 0.3);
+        }
+
         .unowned img {
-        filter: grayscale(100%); /* Black-and-white effect */
+        filter: grayscale(100%) opacity(25%); /* Black-and-white effect */
+        }
+
+        .unowned:hover img {
+            filter: grayscale(0%) opacity(75%);
         }
 
         .card p {
@@ -50,29 +66,83 @@
     </style>
 </head>
 <body>
-    <h1>UltraDec's Ultraman BSP Collection</h1>
+    <h1>UltraDec's Ultraman BSP Collection</h1> 
+
+    <form id="fetchForm"> 
+        <label for="sets">Select Set:</label>
+        <select name="sets" id="sets">
+            <option value="-">-</option>
+            <option value="BSC24">BSC24</option>
+            <option value="CB01">CB01</option>
+            <option value="CB18">CB18</option>
+            <option value="CB22">CB22</option>
+            <option value="CB32">CB32</option>
+            <option value="PB08">PB08</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Select">
+    </form>
+    <h3 id="message"></h3> 
     <div id="card-container"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script> 
     <script>
-        fetch('CB32.csv')
+
+        function loadCards(fileName) { 
+            fetch(fileName)
             .then(response => response.text())
             .then(csvText => {
                 // Parse CSV with PapaParse
                 const cards = Papa.parse(csvText, { header: true }).data;
 
+                
                 // Populate cards on the page
                 const container = document.getElementById('card-container');
+                container.innerHTML = ''; // Clears current cards shown
                 cards.forEach(card => {
                 const cardElement = document.createElement('div');
                 cardElement.classList.add('card', card.Owned === 'TRUE' ? 'owned' : 'unowned');
                 cardElement.innerHTML = `
                     <img src="${card.Link}" alt="${card.Name}">
                     <p>${card.Name}</p>
+                    <p>${card.ID}</p>
                 `;
                 container.appendChild(cardElement);
                 });
             })
             .catch(error => console.error('Error loading CSV:', error));
+        }
+
+        function clearCards() {
+            const container = document.getElementById('card-container');
+            container.innerHTML = ''; // Clears current cards shown
+        }
+
+        // Handle form submission to load the selected set
+        let form = document.getElementById('fetchForm');
+        let select = document.getElementById('sets');
+        form.addEventListener('submit', (event) => {
+            event.preventDefault(); // Prevent actual form submission
+
+            // Get the selected value
+            let selectedSet = select.value;
+
+            if (selectedSet === '-') { // Change to stats
+                clearCards();
+            } else {
+                // Load the selected set
+                if (selectedSet === 'CB18') {
+                    const message = document.getElementById('message');
+                    message.textContent = "Art for (A) cards currently unavailable";
+                } else if (selectedSet == 'BSC24' || selectedSet == 'PB18') {
+                    const message = document.getElementById('message');
+                    message.textContent = "Some images for " + selectedSet + " unavailable";
+                } else {
+                    const message = document.getElementById('message');
+                    message.textContent = "";
+                }
+                loadCards(`${selectedSet}.csv`);
+            }
+        });
     </script>
 </body>
 </html>
