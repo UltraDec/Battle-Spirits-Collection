@@ -21,13 +21,13 @@
 
         #card-container {
         display: flex;
-        flex-wrap: wrap; /* Allow wrapping to the next row */
-        gap: 15px; /* Spacing between cards */
-        justify-content: center; /* Center cards */
+        flex-wrap: wrap;
+        gap: 15px; 
+        justify-content: center; 
         }
 
         .card {
-        width: calc(25% - 25px); /* 3 cards per row with spacing */
+        width: calc(25% - 25px); 
         box-sizing: border-box;
         text-align: center;
         border: 1px solid #ccc;
@@ -35,13 +35,13 @@
         overflow: hidden;
         background: #f9f9f9;
         padding: 10px;
-        flex-direction: column; /* Stack the text and image vertically */
-        align-items: center; /* Center items horizontally */
-        justify-content: flex-start; /* Align items at the top */
+        flex-direction: column;
+        align-items: center; 
+        justify-content: flex-start; 
         }
 
         .card img {
-        width: 100%; /* Ensure images fit within the card */
+        width: 100%; 
         height: auto;
         display: block;
         border-radius: 4px;
@@ -52,7 +52,7 @@
         }
 
         .unowned img {
-        filter: grayscale(100%) opacity(25%); /* Black-and-white effect */
+        filter: grayscale(100%) opacity(25%);
         }
 
         .unowned:hover img {
@@ -94,8 +94,7 @@
                 // Parse CSV with PapaParse
                 const cards = Papa.parse(csvText, { header: true }).data;
 
-                
-                // Populate cards on the page
+                // Load cards on the page
                 const container = document.getElementById('card-container');
                 container.innerHTML = ''; // Clears current cards shown
                 cards.forEach(card => {
